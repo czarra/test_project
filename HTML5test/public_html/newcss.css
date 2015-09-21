@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-09-21, 19:23:57
+    Author     : Rad
+*/
+#normal_text{
+    font-size: 10px;
+}
+#kolor{
+    background-color: orange;
+}
+
+#caly_blok{
+  position:absolute; 
+  
+  font-family: rotice;
+}
+#naglowek {
+  background-color:gold;
+  //position:relative; 
+ // left: 10%;
+  //font-size:xx-large;
+  
+}
+
+#lewy {
+  background-color:#DDD;
+}
+
+#prawy {
+  background-color:#EEE;
+}
+
+#stopka {
+  background-color:gold;
+}
