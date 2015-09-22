@@ -11,7 +11,9 @@ and open the template in the editor.
     font-size: 10px;
 }
 #kolor{
+
     background-color: orange;
+    
 }
 
 #caly_blok{
@@ -19,12 +21,19 @@ and open the template in the editor.
   
   font-family: rotice;
 }
+#kursywa{
+    font-style:italic;
+}
 #naglowek {
-  background-color:gold;
-  //position:relative; 
- // left: 10%;
-  //font-size:xx-large;
-  
+  background-color:white;
+  text-align:center;
+  font: 15px Rotice;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+#naglowek2{
+      font: 25px Rotice;
+      font-weight:bold;
 }
 
 #lewy {
@@ -36,5 +45,5 @@ and open the template in the editor.
 }
 
 #stopka {
-  background-color:gold;
+  background-color: orange;
 }

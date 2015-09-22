@@ -12,14 +12,30 @@ and open the template in the editor.
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="Stylesheet" type="text/css" href="newcss.css" />
      </head>
-    <body id="kolor">
-        <div id="naglowek">QUESTIONS
-        <input type="radio" name="group1" value="My shelf">My shelf
-        <input type="radio" name="group1" value="My shelf">All question
-        <samp>Sort by: recent or hot</samp>
+    <body>
+        <div id="naglowek">
+              <table width="100%" >
+                  <tr>
+                      <td  rowspan="2" id="naglowek2" width="50%" align="left">QUESTIONS</td>
+                  </tr>              
+                 <tr>
+                    <td ><input type="radio" name="group1" value="My shelf">My shelf</td>
+                    <td ><input type="radio" name="group1" value="My shelf">All question</td>
+                     <td  id="kursywa" align="right">Sort by: recent or hot</td>
+                 </tr>
+                 <tr>
+                     <td colspan="3"> <input type="text" name="search question" value="search question"></td>
+                    <td > <input type="submit"  value="search"> </td>
+                </tr>
+            </table>
+            
+            
+         
+        
+        
+        
         <br/>
-        <input type="text" name="search question" value="search question">
-        <input type="submit"  value="search"> 
+        
         </div>
   <div id="caly_blok">
     
